@@ -1,0 +1,1214 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <!-- iubenda: Privacy Controls & Cookie Solution (widget unificato — la config è inclusa nello script) -->
+        <script
+            type="text/javascript"
+            src="https://embeds.iubenda.com/widgets/605e37f2-e0c5-4d12-b29a-885fa6ec76c1.js"
+        ></script>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Samuele Gazzo | Junior Full-Stack & Front-End Developer</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png" />
+
+        <!-- CDN -->
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+        <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/animejs@4/+esm" crossorigin />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+            rel="stylesheet"
+            media="print"
+            onload="this.media = 'all'"
+        />
+        <!--SEO-->
+        <link rel="canonical" href="https://gazzosamuele.github.io/" />
+        <meta name="description" content="Portfolio di Samuele Gazzo, Junior Full-Stack & Front-End Developer" />
+        <!--Linkedin-->
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:title" content="Samuele Gazzo - Junior Full-Stack & Front-End Developer" />
+        <meta
+            property="og:description"
+            content="Portfolio di Samuele Gazzo, Junior Full-Stack & Front-End Developer: progetti in React, TypeScript e Node.js, dal design in Figma al codice"
+        />
+        <meta property="og:image" content="https://gazzosamuele.github.io/img/sfondo-linkedin.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Samuele Gazzo – Junior Full-Stack & Front-End Developer" />
+        <meta property="og:url" content="https://gazzosamuele.github.io/" />
+        <meta property="og:type" content="website" />
+        <!-- Font Awesome (async - non blocca il rendering) -->
+        <link
+            rel="preload"
+            as="style"
+            onload="
+                this.onload = null;
+                this.rel = 'stylesheet';
+            "
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+                crossorigin="anonymous"
+                referrerpolicy="no-referrer"
+            />
+        </noscript>
+
+        <!-- Preload LCP image -->
+        <link rel="preload" as="image" href="/img/logo-senza-sfondo-e-nome-uff.png" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css?v=3" />
+    </head>
+
+    <body class="preloader-active">
+        <script>
+            let preloaderSeen = false;
+            try {
+                preloaderSeen = sessionStorage.getItem("preloader") === "1";
+            } catch {}
+            if (preloaderSeen || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+                document.body.classList.remove("preloader-active");
+            }
+        </script>
+        <!-- INIZIO PRELOADER -->
+        <div class="page-transition">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+        </div>
+
+        <div class="preload-logo">
+            <svg viewBox="0 0 204 296" xmlns="http://www.w3.org/2000/svg">
+                <path class="line" d="M134.424 123.667V118.167" />
+                <path class="line" d="M201.424 118.167C200.29 130.167 191.313 159.767 164.473 182.167" />
+                <path class="line" d="M149.424 157.667C155.257 148.333 160.424 128.467 134.424 123.667" />
+                <path class="line" d="M164.473 182.167C162.834 178.567 153.757 164.333 149.424 157.667" />
+                <path class="line" d="M134.424 118.167H201.424" />
+                <path class="line" d="M98.4236 202.358C92.5902 192.294 80.4236 174.167 65.9236 157.667" />
+                <path class="line" d="M52.9236 190.167C75.7867 203.367 92.7832 203.794 98.4236 202.358" />
+                <path class="line" d="M12.4236 53.0388C-7.72715 87.9409 1.42357 132.166 12.4236 149.666" />
+                <path class="line" d="M65.9236 157.667C51.4236 141.167 31.0789 109.167 44.6216 78.1665" />
+                <path class="line" d="M150.696 13.1666C143.105 8.9444 123.024 0.5 103.424 0.5" />
+                <path class="line" d="M160.924 83.1665C163.737 93.6665 162.924 100.167 162.924 100.167" />
+                <path class="line" d="M202.924 100.167C203.492 92.6665 201.743 72.6665 190.196 52.6665" />
+                <path class="line" d="M162.924 100.167H202.924" />
+                <path class="line" d="M109.924 39.1665C138.924 40.9644 158.11 72.6665 160.924 83.1665" />
+                <path class="line" d="M190.196 52.6665C178.649 32.6665 159.051 17.9998 150.696 13.1665" />
+                <path class="line" d="M103.424 0.5C78.9236 0.5 37.612 9.41125 12.4236 53.0389" />
+                <path class="line" d="M44.6216 78.1665C58.1643 47.1665 80.9236 37.3686 109.924 39.1665" />
+                <path class="line" d="M12.4236 149.667C16.3973 157.667 30.0605 176.967 52.9236 190.167" />
+                <path class="line" d="M54.9236 291.667C85.3236 299.812 109.257 290.061 117.424 284.167" />
+                <path class="line" d="M117.424 284.167C130.029 277.167 155.24 254.267 155.24 218.667" />
+                <path class="line" d="M155.24 218.666C155.24 188.666 141.12 174.167 135.924 165.167" />
+                <path class="line" d="M103.924 80.1665C128.424 62.4462 146.424 86.6665 146.924 88.6665" />
+                <path class="line" d="M68.4236 135.997C68.8143 136.501 69.2034 137.002 69.5909 137.5" />
+                <path class="line" d="M90.9236 56.6665C54.9236 66.3127 48.8149 110.667 68.4236 135.997" />
+                <path class="line" d="M69.5909 137.5C96.9703 172.657 116.153 190.071 116.153 218.667" />
+                <path class="line" d="M116.153 218.667C116.243 229.48 110.724 254.398 87.9236 267.561" />
+                <path class="line" d="M34.9236 271.667C26.4986 268 8.60358 256.767 4.42357 241.167" />
+                <path class="line" d="M4.42357 241.167C8.59024 254.606 24.5236 283.521 54.9236 291.667" />
+                <path class="line" d="M87.9236 267.562C65.1236 280.725 43.0902 275.783 34.9236 271.667" />
+                <path class="line" d="M146.924 88.6665C141.757 73.9902 124.124 47.7706 90.9236 56.6665" />
+                <path class="line" d="M135.924 165.167L98.4236 117.167" />
+                <path class="line" d="M98.4236 117.167C89.9236 105.167 91.4304 89.2025 103.924 80.1665" />
+            </svg>
+        </div>
+
+        <div class="page-content">
+            <!-- FINE PRELOADER -->
+            <header>
+                <!-- Navbar -->
+                <nav class="tab-navbar">
+                    <div class="nav-menu" id="nav-menu">
+                        <img
+                            src="/img/logo-senza-sfondo-e-nome-uff.png"
+                            alt="il mio logo personale"
+                            width="300"
+                            height="300"
+                            fetchpriority="high"
+                            loading="eager"
+                        />
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#competenze" class="nav-link">COMPETENZE </a></li>
+                            <li class="nav-item"><a href="#formazione" class="nav-link">FORMAZIONE</a></li>
+                            <li class="nav-item"><a href="#progetti" class="nav-link">PROGETTI</a></li>
+                            <!-- <li class="nav-item"><a href="#metodoLavorativo" class="nav-link">COME LAVORO</a></li> -->
+                        </ul>
+
+                        <div class="btn-secondary social-links">
+                            <a
+                                href="https://www.linkedin.com/in/samuele-gazzo-586a26338/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                            >
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a
+                                href="https://github.com/GazzoSamuele"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                            >
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="nav-actions">
+                            <button
+                                class="theme-toggle"
+                                id="theme-toggle"
+                                aria-label="Toggle theme"
+                                aria-pressed="false"
+                            >
+                                <i class="fa-solid fa-moon theme-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section class="hero section" id="home" aria-labelledby="hero-title">
+                    <div class="hero-container container">
+                        <div class="hero-content">
+                            <span class="hero-greeting">Sono Samuele</span>
+                            <h1 class="hero-title" id="hero-title">
+                                Junior Full-Stack
+                                <br />
+                                Front-End Developer
+                            </h1>
+                            <p class="hero-description">
+                                Specializzato in UX/UI con la passione per lo Sviluppo Full-Stack. Mi piace trasformare
+                                le mie idee in progetti con l'obiettivo di aumentare il mio bagaglio culturale e
+                                professionale.
+                            </p>
+
+                            <div class="hero-buttons">
+                                <a href="#progetti" class="btn btn-primary btn-large">
+                                    I miei progetti
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </a>
+                                <div class="btn-secondary social-links-hero">
+                                    <a
+                                        href="https://www.linkedin.com/in/samuele-gazzo-586a26338/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="LinkedIn"
+                                    >
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/GazzoSamuele"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="GitHub"
+                                    >
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-image">
+                            <div class="hero-blob">
+                                <div class="hero-logo">
+                                    <svg viewBox="0 0 204 296" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="line" d="M134.424 123.667V118.167" />
+                                        <path
+                                            class="line"
+                                            d="M201.424 118.167C200.29 130.167 191.313 159.767 164.473 182.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M149.424 157.667C155.257 148.333 160.424 128.467 134.424 123.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M164.473 182.167C162.834 178.567 153.757 164.333 149.424 157.667"
+                                        />
+                                        <path class="line" d="M134.424 118.167H201.424" />
+                                        <path
+                                            class="line"
+                                            d="M98.4236 202.358C92.5902 192.294 80.4236 174.167 65.9236 157.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M52.9236 190.167C75.7867 203.367 92.7832 203.794 98.4236 202.358"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M12.4236 53.0388C-7.72715 87.9409 1.42357 132.166 12.4236 149.666"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M65.9236 157.667C51.4236 141.167 31.0789 109.167 44.6216 78.1665"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M150.696 13.1666C143.105 8.9444 123.024 0.5 103.424 0.5"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M160.924 83.1665C163.737 93.6665 162.924 100.167 162.924 100.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M202.924 100.167C203.492 92.6665 201.743 72.6665 190.196 52.6665"
+                                        />
+                                        <path class="line" d="M162.924 100.167H202.924" />
+                                        <path
+                                            class="line"
+                                            d="M109.924 39.1665C138.924 40.9644 158.11 72.6665 160.924 83.1665"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M190.196 52.6665C178.649 32.6665 159.051 17.9998 150.696 13.1665"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M103.424 0.5C78.9236 0.5 37.612 9.41125 12.4236 53.0389"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M44.6216 78.1665C58.1643 47.1665 80.9236 37.3686 109.924 39.1665"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M12.4236 149.667C16.3973 157.667 30.0605 176.967 52.9236 190.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M54.9236 291.667C85.3236 299.812 109.257 290.061 117.424 284.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M117.424 284.167C130.029 277.167 155.24 254.267 155.24 218.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M155.24 218.666C155.24 188.666 141.12 174.167 135.924 165.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M103.924 80.1665C128.424 62.4462 146.424 86.6665 146.924 88.6665"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M68.4236 135.997C68.8143 136.501 69.2034 137.002 69.5909 137.5"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M90.9236 56.6665C54.9236 66.3127 48.8149 110.667 68.4236 135.997"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M69.5909 137.5C96.9703 172.657 116.153 190.071 116.153 218.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M116.153 218.667C116.243 229.48 110.724 254.398 87.9236 267.561"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M34.9236 271.667C26.4986 268 8.60358 256.767 4.42357 241.167"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M4.42357 241.167C8.59024 254.606 24.5236 283.521 54.9236 291.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M87.9236 267.562C65.1236 280.725 43.0902 275.783 34.9236 271.667"
+                                        />
+                                        <path
+                                            class="line"
+                                            d="M146.924 88.6665C141.757 73.9902 124.124 47.7706 90.9236 56.6665"
+                                        />
+                                        <path class="line" d="M135.924 165.167L98.4236 117.167" />
+                                        <path
+                                            class="line"
+                                            d="M98.4236 117.167C89.9236 105.167 91.4304 89.2025 103.924 80.1665"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="telemetry" data-reveal>
+                        <div>
+                            <div class="num">5+</div>
+                            <div class="lbl">siti web</div>
+                        </div>
+                        <div>
+                            <div class="num">3+</div>
+                            <div class="lbl">progetti WordPress</div>
+                        </div>
+                        <div>
+                            <div class="num">5</div>
+                            <div class="lbl">progetti più avanzati</div>
+                        </div>
+                        <div>
+                            <div class="num">~1.5</div>
+                            <div class="lbl">anni di pratica</div>
+                        </div>
+                    </div>
+                </section>
+                <!-- skills Section -->
+                <section>
+                    <div class="skills-container skills-section">
+                        <!-- Bento Grid -->
+                        <div class="bento-grid" id="competenze">
+                            <!-- BLOCCO DESIGN -->
+                            <div class="bento-container" aria-labelledby="ui-tools">
+                                <p class="label" id="ui-tools">UI TOOLS</p>
+                                <div class="grid-wrapper">
+                                    <!-- design-bg -->
+                                    <div class="card grid-area figma">
+                                        <p>FIGMA</p>
+                                    </div>
+                                    <div class="card item-2 react">
+                                        <span>REACT</span>
+                                    </div>
+                                    <div class="card item-1 bootstrap">
+                                        <span>BOOTSTRAP</span>
+                                    </div>
+                                    <div class="card item-4 vite">
+                                        <span>VITE</span>
+                                    </div>
+                                    <div class="card item-3 elementor">
+                                        <span>ELEMENTOR</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- BLOCCO DEV -->
+                            <div class="bento-container" aria-labelledby="dev-tools">
+                                <p class="label" id="dev-tools">DEV TOOLS</p>
+                                <div class="grid-wrapper">
+                                    <div class="card grid-area vs-code">
+                                        <p>VISUAL STUDIO CODE</p>
+                                    </div>
+                                    <div class="card item-2 nodejs">
+                                        <span>NODE.JS</span>
+                                    </div>
+                                    <div class="card item-3 php">
+                                        <span>PHP</span>
+                                    </div>
+                                    <div class="card item-1 html-css-javascript">
+                                        <span>HTML CSS JAVASCRIPT</span>
+                                    </div>
+                                    <div class="card item-4 mysql">
+                                        <span>MYSQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stack-grid">
+                            <div class="sec-head" data-reveal>
+                                <h2 class="label">stack</h2>
+                            </div>
+
+                            <div class="stack" data-reveal>
+                                <!-- FRONT-END -->
+                                <div class="layerrow front">
+                                    <div class="layer-meta">
+                                        <span class="bar"></span>
+                                        <div>
+                                            <h3 class="label-small font-size-1rem">Front-end</h3>
+                                        </div>
+                                    </div>
+                                    <div class="chips">
+                                        <span class="chip core">HTML</span>
+                                        <span class="chip core">CSS</span>
+                                        <!-- <span class="chip core">-</->SCSS</span> -->
+                                        <span class="chip core">JavaScript</span>
+                                        <span class="chip core">React</span>
+                                        <span class="chip core">Vite</span>
+                                        <!-- <span class="chip core">-</->React Router</span> -->
+                                        <span class="chip core">Bootstrap</span>
+                                    </div>
+                                </div>
+                                <!-- BACK-END -->
+                                <div class="layerrow back">
+                                    <div class="layer-meta">
+                                        <span class="bar"></span>
+                                        <div>
+                                            <h3 class="label-small font-size-1rem">Back-end</h3>
+                                        </div>
+                                    </div>
+                                    <div class="chips">
+                                        <span class="chip core chip-backend">Node.js</span>
+                                        <span class="chip core chip-backend">Express</span>
+                                        <span class="chip core chip-backend">REST API</span>
+                                        <span class="chip learn chip-backend">PHP</span>
+                                    </div>
+                                </div>
+                                <!-- DATABASE -->
+                                <div class="layerrow data">
+                                    <div class="layer-meta">
+                                        <span class="bar"></span>
+                                        <div>
+                                            <h3 class="label-small font-size-1rem">Database</h3>
+                                        </div>
+                                    </div>
+                                    <div class="chips">
+                                        <span class="chip learn chip-database">MySQL</span>
+                                    </div>
+                                </div>
+                                <!-- STRUMENTI -->
+                                <div class="layerrow tools">
+                                    <div class="layer-meta">
+                                        <span class="bar"></span>
+                                        <div>
+                                            <h3 class="label-small font-size-1rem">Strumenti</h3>
+                                        </div>
+                                    </div>
+                                    <div class="chips">
+                                        <span class="chip core chip-tools">Git</span>
+                                        <span class="chip core chip-tools">Vercel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- formazione Section -->
+                <section id="formazione" class="alt">
+                    <!-- ============ PERCORSO ============ -->
+                    <div class="wrap">
+                        <div class="sec-head" data-reveal>
+                            <h2 class="label">Il mio percorso</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="tl-item" data-reveal>
+                                <span class="idx">01</span>
+                                <div>
+                                    <h3>Web Design</h3>
+                                    <span class="place">Scuola Internazionale di Comics — Torino</span>
+                                </div>
+                                <span class="badge done">Completato</span>
+                            </div>
+
+                            <div class="tl-item" data-reveal>
+                                <span class="idx">02</span>
+                                <div>
+                                    <h3>Full-Stack Developer</h3>
+                                    <span class="place">Corso intensivo — TalentForm.it</span>
+                                </div>
+                                <span class="badge done">Completato</span>
+                            </div>
+
+                            <div class="tl-item" data-reveal>
+                                <span class="idx">03</span>
+                                <div>
+                                    <h3>React</h3>
+                                    <span class="place">Corso intensivo — Codegrind.it</span>
+                                </div>
+                                <span class="badge done">Completato</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============ PROSSIMI OBIETTIVI ============ -->
+                    <div class="wrap">
+                        <div class="sec-head" data-reveal>
+                            <h2 class="label">Prossimi obiettivi</h2>
+                        </div>
+
+                        <div class="goals">
+                            <article class="goal-col front" data-reveal>
+                                <h3 class="label-small font-size-1rem">Front-end</h3>
+                                <ul class="goal-list">
+                                    <li class="goal-frontend"><span class="g-name">TypeScript</span></li>
+                                    <li class="goal-frontend"><span class="g-name">TanStack</span></li>
+                                    <li class="goal-frontend"><span class="g-name">React Router</span></li>
+                                </ul>
+                            </article>
+
+                            <article class="goal-col back" data-reveal>
+                                <h3 class="label-small font-size-1rem">Back-end</h3>
+                                <ul class="goal-list">
+                                    <li class="goal-backend"><span class="g-name">MongoDB</span></li>
+                                    <li class="goal-backend"><span class="g-name">Redis</span></li>
+                                    <li class="goal-backend"><span class="g-name">Laravel</span></li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Portfolio Section -->
+
+                <section class="portfolio section skills-section" id="progetti" aria-labelledby="progetti-lavorativi">
+                    <div class="container">
+                        <div class="section-header"></div>
+
+                        <div class="filters" data-reveal role="tablist" aria-label="Filtra progetti">
+                            <button role="tab" aria-selected="true" class="active" data-filter="all">Tutti</button>
+                            <button role="tab" aria-selected="false" data-filter="lavoro">Progetti lavorativi</button>
+                            <button role="tab" aria-selected="false" data-filter="siti">Siti web</button>
+                            <!-- <button role="tab" aria-selected="false" data-filter="webapp">Web app</button> -->
+                            <button class="btn-ultimi-progetti" role="tab" aria-selected="false" data-filter="recenti">
+                                Ultimi progetti
+                            </button>
+                        </div>
+
+                        <!-- Progetti Lavorativi -->
+                        <div class="portfolio-category" data-cat="lavoro">
+                            <h2 class="label" id="progetti-lavorativi">Progetti Lavorativi</h2>
+
+                            <div class="carousel" data-carousel>
+                                <button
+                                    class="carousel-btn carousel-prev"
+                                    type="button"
+                                    aria-label="Progetto precedente"
+                                >
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                                <div
+                                    class="carousel-track"
+                                    tabindex="0"
+                                    role="group"
+                                    aria-label="Carosello progetti lavorativi"
+                                >
+                                    <!--ALOXYMERA-->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="lavoro"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-aloxymera/video-aloxymera.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                            <figcaption>Demo del mio primo progetto lavorativo</figcaption>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">Team Project</span>
+                                            </div>
+                                            <h3 class="label-sm">Aloxymera Comunicazione</h3>
+                                            <p>
+                                                Primo progetto in team dove ho collaborato alla creazione di
+                                                illustrazioni per rappresentare le varie sezioni del sito. Ho ideato la
+                                                struttura e realizzato gran parte dello sviluppo e del responsive
+                                                design. Organizzazione del lavoro con Figma e realizzazione delle pagine
+                                                con Wordpress
+                                            </p>
+                                            <a
+                                                href="https://aloxymera.it/"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il sito
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+
+                                    <!--GESTIONALE RISTORATIVO -->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="lavoro"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <span class="wip-badge">
+                                                <i class="fa-solid fa-gear fa-spin" aria-hidden="true"></i>
+                                                In fase di sviluppo
+                                            </span>
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-gestionale-ristorante/video-screen-gestionale-ristorativo.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+
+                                            <figcaption>Demo del mio secondo progetto lavorativo</figcaption>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">Next.js</span>
+                                                <span class="tag">TypeScript</span>
+                                                <span class="tag">SCSS</span>
+                                                <span class="tag">Prisma</span>
+                                                <span class="tag">PostgreSQL</span>
+                                            </div>
+                                            <h3 class="label-sm">Gestionale Ristorativo</h3>
+                                            <p>
+                                                Lavoro a progetto, avviato con un periodo di 10 giorni insieme a un
+                                                docente esperto e tuttora in sviluppo. Rappresenta un gestionale
+                                                ristorativo creato con Next.js e TypeScript, su database PostgreSQL
+                                                gestito tramite Prisma. All'interno ci sono tutte le sezioni di lavoro
+                                                utili durante un turno lavorativo e non solo, dall'organizzazione del
+                                                lavoro nelle varie aree, alla gestione degli ordini in sala e di
+                                                asporti.
+                                            </p>
+                                            <a
+                                                href="https://gestionale-ristorativo.vercel.app/"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il sito
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <button
+                                    class="carousel-btn carousel-next"
+                                    type="button"
+                                    aria-label="Progetto successivo"
+                                >
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+
+                                <div class="carousel-dots" aria-label="Vai al progetto"></div>
+                            </div>
+                        </div>
+
+                        <!-- Siti Web -->
+                        <section class="portfolio-category" data-cat="siti" aria-labelledby="web-site-category">
+                            <h2 class="label" id="web-site-category">Siti Web</h2>
+
+                            <div class="projects-grid">
+                                <!-- Progetto 1: Portfolio Fotografico -->
+                                <article class="project-card" data-cat="siti" data-reveal>
+                                    <figure class="project-video">
+                                        <video muted loop playsinline preload="none">
+                                            <source
+                                                src="/progetto-porfolio/video-portfolio-fotografico.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <figcaption>Demo del Portfolio Fotografico</figcaption>
+                                    </figure>
+                                    <div class="project-content">
+                                        <div class="project-tags">
+                                            <span class="tag">Portfolio</span>
+                                            <span class="tag">Photography</span>
+                                        </div>
+                                        <h3 class="label-sm">Progetto Portfolio Fotografico</h3>
+                                        <p>
+                                            Portfolio fotografico con menu di navigazione laterale. Vi è il mio logo
+                                            personalizzato online per la prima volta, realizzato interamente con
+                                            Illustrator
+                                        </p>
+                                        <a
+                                            href="https://progetto-portfolio-fotografico.netlify.app/"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                            class="project-link"
+                                        >
+                                            Visita il sito
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <!-- Progetto 2: Scuola Comics -->
+                                <article class="project-card" data-cat="siti" data-reveal>
+                                    <figure class="project-video">
+                                        <video muted loop playsinline preload="none">
+                                            <source
+                                                src="/progetto-landing-page/video-landing-page.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <figcaption>Demo della Landing Page</figcaption>
+                                    </figure>
+                                    <div class="project-content">
+                                        <div class="project-tags">
+                                            <span class="tag">Landing Page</span>
+                                            <span class="tag">Javascript</span>
+                                        </div>
+                                        <h3 class="label-sm">1° Progetto Restyling</h3>
+                                        <p>
+                                            Restyling della sezione del corso di web design della Scuola Comics di
+                                            Torino. Struttura con sezioni con altezza fissa, molta sperimentazione con
+                                            JS e CSS.
+                                        </p>
+                                        <a
+                                            href="https://progetto-landingpages.netlify.app/"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                            class="project-link"
+                                        >
+                                            Visita il sito
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                                <!-- Progetto 2: Ecommerce -->
+                                <article class="project-card" data-cat="siti" data-reveal>
+                                    <figure class="project-video">
+                                        <video muted loop playsinline preload="none">
+                                            <source src="/progetto-ecommerce/video-ecommerce-cv.mp4" type="video/mp4" />
+                                        </video>
+                                        <figcaption>Demo dell'Ecommerce</figcaption>
+                                    </figure>
+                                    <div class="project-content">
+                                        <div class="project-tags">
+                                            <span class="tag">WordPress</span>
+                                            <span class="tag">WooCommerce</span>
+                                        </div>
+                                        <h3 class="label-sm">Progetto E-commerce</h3>
+                                        <p>
+                                            Creazione completa di un e-commerce utilizzando CPT con ACPT, presenza
+                                            plugin WooCommerce per funzionalità avanzate come i filtri dei prodotti
+                                            oppure le taglie dei prodotti.
+                                        </p>
+                                        <p class="disclaimer">
+                                            Progetto realizzato in team. Per motivi di copyright sulle immagini
+                                            utilizzate, non è disponibile una versione live.
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <!-- Progetto 4: Venaria Reale -->
+                                <article class="project-card" data-cat="siti" data-reveal>
+                                    <figure class="project-video">
+                                        <video muted loop playsinline preload="none">
+                                            <source
+                                                src="/progetto-restyling/video-lareggia-ufficiale.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <figcaption>Demo della Venaria reale</figcaption>
+                                    </figure>
+                                    <div class="project-content">
+                                        <div class="project-tags">
+                                            <span class="tag">Restyling</span>
+                                            <span class="tag">UX/UI</span>
+                                        </div>
+                                        <h3 class="label-sm">2° Progetto Restyling</h3>
+                                        <p>
+                                            Rivisitazione del sito della Venaria Reale. Creazione della struttura con
+                                            Photoshop, realizzazione vettoriale della facciata con Illustrator, infine
+                                            implementazione di animazioni JS e design responsive.
+                                        </p>
+                                        <p class="disclaimer">
+                                            Progetto realizzato in team. Per motivi di copyright sulle immagini
+                                            utilizzate, non è disponibile una versione live.
+                                        </p>
+                                    </div>
+                                </article>
+                                <!-- Progetto 5: Blog Personale -->
+                                <article class="project-card" data-cat="siti" data-reveal>
+                                    <figure class="project-video">
+                                        <video muted loop playsinline preload="none">
+                                            <source src="/progetto-blog/video-blog-risize.mp4" type="video/mp4" />
+                                        </video>
+                                        <figcaption>Demo del blog</figcaption>
+                                    </figure>
+                                    <div class="project-content">
+                                        <div class="project-tags">
+                                            <span class="tag">Blog</span>
+                                        </div>
+                                        <h3 class="label-sm">Progetto Blog</h3>
+                                        <p>
+                                            Blog realizzato in team con WordPress durante il mio soggiorno a Vienna,
+                                            costruito con l'editor a blocchi.
+                                        </p>
+                                        <p class="disclaimer">
+                                            Progetto realizzato in team. Per motivi di copyright sulle immagini
+                                            utilizzate, non è disponibile una versione live.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+
+                        <!-- Ultimi progetti -->
+                        <section class="portfolio-category" data-cat="recenti" aria-labelledby="recenti-category">
+                            <h2 class="label" id="recenti-category">Ultimi progetti</h2>
+
+                            <div class="carousel" data-carousel>
+                                <button
+                                    class="carousel-btn carousel-prev"
+                                    type="button"
+                                    aria-label="Progetto precedente"
+                                >
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+
+                                <div
+                                    class="carousel-track"
+                                    tabindex="0"
+                                    role="group"
+                                    aria-label="Carosello ultimi progetti"
+                                >
+                                    <!-- Slide 1: Generatore Film -->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="recenti"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-generatore-film/video-generatore-film.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">React 19</span>
+                                                <span class="tag">TypeScript</span>
+                                                <span class="tag">Vite</span>
+                                                <span class="tag">SCSS</span>
+                                                <span class="tag">Express 5</span>
+                                                <span class="tag">MongoDB Atlas</span>
+                                                <span class="tag">API</span>
+                                            </div>
+                                            <h3 class="label-sm">MovieMatch</h3>
+                                            <p>
+                                                Motore di raccomandazione content-based per film e serie TV: costruisce
+                                                un profilo di gusti a partire da quello che l'utente dichiara e da
+                                                quello che guarda, e usa quel profilo per consigliare titoli nuovi,
+                                                spiegando ogni volta perché li sta consigliando.
+                                            </p>
+                                            <a
+                                                href="https://app-generatore-film.vercel.app/"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il progetto
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+
+                                    <!-- Slide 2: Gestionale Tavoli Ristorante -->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="recenti"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-sala-ristorante/video-gestionale-tavoli-ristorante.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">React 19</span>
+                                                <span class="tag">TypeScript</span>
+                                                <span class="tag">Vite</span>
+                                                <span class="tag">SCSS</span>
+                                                <span class="tag">Node.js</span>
+                                                <span class="tag">Express</span>
+                                                <span class="tag">MongoDB Atlas</span>
+                                            </div>
+                                            <h3 class="label-sm">Gestionale Tavoli Ristorante</h3>
+                                            <p>
+                                                Applicazione full-stack per la gestione di sala e prenotazioni: piantina
+                                                interattiva con tavoli trascinabili e posizione persistita a database,
+                                                stati con codice colore, assegnazione delle prenotazioni ai tavoli
+                                                liberi e conferma al cliente via WhatsApp. Drag &amp; drop realizzato
+                                                con le Pointer Events API, senza librerie esterne.
+                                            </p>
+                                            <a
+                                                href="https://gestionale-tavoli-ristorante.vercel.app/"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il progetto
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+
+                                    <!-- Slide 3: Gestionale Società Sportiva -->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="recenti"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <span class="wip-badge">
+                                                <i class="fa-solid fa-gear fa-spin" aria-hidden="true"></i>
+                                                In fase di sviluppo
+                                            </span>
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-gestionale-sportivo/resize-gestionale-uff.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">PHP</span>
+                                                <span class="tag">MySQL</span>
+                                                <span class="tag">Bootstrap</span>
+                                                <span class="tag">Chart.js</span>
+                                                <span class="tag">FullCalendar</span>
+                                            </div>
+                                            <h3 class="label-sm">Gestionale Società Sportiva</h3>
+                                            <p>
+                                                Gestionale con sito pubblico e area riservata a ruoli differenziati
+                                                (socio e amministratore). Database relazionale progettato da zero con
+                                                chiavi esterne e dashboard con grafici statistici e calendario degli
+                                                impegni popolati dinamicamente.
+                                            </p>
+                                            <a
+                                                href="https://github.com/GazzoSamuele/Esercizio-GestionaleSportivo-Database-SQL"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il progetto
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+
+                                    <!-- Slide 4: Voice To-Do -->
+                                    <article
+                                        class="project-card project-card--row carousel-slide"
+                                        data-cat="recenti"
+                                        data-reveal
+                                    >
+                                        <figure class="project-video">
+                                            <video muted loop playsinline preload="none">
+                                                <source
+                                                    src="/progetto-voice-to-do/video-voice-to-do.mp4"
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                        </figure>
+                                        <div class="project-content">
+                                            <div class="project-tags">
+                                                <span class="tag">React 19</span>
+                                                <span class="tag">TypeScript</span>
+                                                <span class="tag">Vite</span>
+                                                <span class="tag">SCSS</span>
+                                                <span class="tag">Express 5</span>
+                                                <span class="tag">MongoDB Atlas</span>
+                                                <span class="tag">API</span>
+                                            </div>
+                                            <h3 class="label-sm">Voice To-Do</h3>
+                                            <p>
+                                                App full-stack che trasforma la voce in appunti: trascrizione vocale in
+                                                tempo reale, categorie personalizzate, ricerca e filtri combinabili,
+                                                calendario per programmare le attività e sintesi vocale per la
+                                                rilettura.
+                                            </p>
+                                            <a
+                                                href="https://app-voice-to-do.vercel.app/"
+                                                target="_blank"
+                                                rel="noreferrer noopener"
+                                                class="project-link"
+                                            >
+                                                Visita il progetto
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <button
+                                    class="carousel-btn carousel-next"
+                                    type="button"
+                                    aria-label="Progetto successivo"
+                                >
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+
+                                <div class="carousel-dots" aria-label="Vai al progetto"></div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="skills-section">
+                <div>
+                    <div class="footer-content">
+                        <img
+                            class="logo"
+                            src="/img/logo-senza-sfondo-e-nome-uff.png"
+                            alt="il mio logo personale"
+                            loading="lazy"
+                        />
+
+                        <div class="footer-links">
+                            <ul>
+                                <li class="nav-item"><a href="#competenze" class="nav-link">COMPETENZE </a></li>
+                                <li class="nav-item"><a href="#formazione" class="nav-link">FORMAZIONE</a></li>
+                                <li class="nav-item"><a href="#progetti" class="nav-link">PROGETTI</a></li>
+                                <!-- <li class="nav-item"><a href="#metodoLavorativo" class="nav-link">COME LAVORO</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="btn-secondary social-links">
+                            <a
+                                href="https://www.linkedin.com/in/samuele-gazzo-586a26338/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                            >
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a
+                                href="https://github.com/GazzoSamuele"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                            >
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Preloader-->
+            <!-- GSAP -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+            <script type="module">
+                window.addEventListener("load", () => {
+                    setTimeout(() => document.body.classList.remove("preloader-active"), 2500);
+                });
+            </script>
+
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Person",
+                            "@id": "https://gazzosamuele.github.io/#samuele",
+                            "name": "Samuele Gazzo",
+                            "url": "https://gazzosamuele.github.io/",
+                            "image": "https://gazzosamuele.github.io/img/logo-senza-sfondo-e-nome-uff.png",
+                            "jobTitle": "Junior Full-Stack & Front-End Developer",
+                            "description": "Sviluppatore specializzato in UX/UI e front-end, con esperienza in React, WordPress e sviluppo full-stack.",
+                            "knowsAbout": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "React",
+                                "Node.js",
+                                "PHP",
+                                "MySQL",
+                                "WordPress",
+                                "UX/UI"
+                            ],
+                            "alumniOf": [
+                                { "@type": "Organization", "name": "Scuola Internazionale di Comics — Torino" },
+                                { "@type": "Organization", "name": "TalentForm" }
+                            ],
+                            "sameAs": [
+                                "https://www.linkedin.com/in/samuele-gazzo-586a26338/",
+                                "https://github.com/GazzoSamuele"
+                            ]
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Aloxymera Comunicazione",
+                            "url": "https://aloxymera.it/",
+                            "description": "Sito WordPress realizzato in team.",
+                            "keywords": "WordPress, Figma, Responsive",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Portfolio Fotografico",
+                            "url": "https://progetto-portfolio-fotografico.netlify.app/",
+                            "description": "Sito portfolio in HTML, CSS e JavaScript.",
+                            "keywords": "HTML, CSS, JavaScript",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Restyling Scuola Comics",
+                            "url": "https://progetto-landingpages.netlify.app/",
+                            "description": "Landing page con animazioni JavaScript.",
+                            "keywords": "JavaScript, CSS, Landing page",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Gestionale Società Sportiva",
+                            "url": "https://github.com/GazzoSamuele/Esercizio-GestionaleSportivo-Database-SQL",
+                            "description": "Gestionale con sito pubblico e area riservata a ruoli differenziati, database relazionale e dashboard con grafici e calendario.",
+                            "keywords": "PHP, MySQL, Bootstrap, Chart.js, FullCalendar",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Gestionale Ristorativo",
+                            "url": "https://github.com/GazzoSamuele/Gestionale-Ristorativo",
+                            "description": "Applicazione web modulare per i flussi di lavoro di un ristorante, dalla sala alla cucina (in fase di sviluppo).",
+                            "keywords": "Next.js, TypeScript, SCSS, Prisma, PostgreSQL",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Gestionale Tavoli Ristorante",
+                            "url": "https://gestionale-tavoli-ristorante.vercel.app/",
+                            "description": "Applicazione full-stack per la gestione di sala e prenotazioni con piantina interattiva e drag & drop.",
+                            "keywords": "React, TypeScript, Vite, Node.js, Express, MongoDB",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "Voice To-Do",
+                            "url": "https://app-voice-to-do.vercel.app/",
+                            "description": "App full-stack che trasforma la voce in appunti, con categorie, filtri, calendario e sintesi vocale.",
+                            "keywords": "React, TypeScript, Vite, Express, MongoDB, API",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        },
+                        {
+                            "@type": "CreativeWork",
+                            "name": "MovieMatch",
+                            "url": "https://app-generatore-film.vercel.app/",
+                            "description": "Motore di raccomandazione content-based per film e serie TV che spiega il perché di ogni consiglio.",
+                            "keywords": "React, TypeScript, Vite, Express, MongoDB",
+                            "creator": { "@id": "https://gazzosamuele.github.io/#samuele" }
+                        }
+                    ]
+                }
+            </script>
+
+            <!-- Scroll to Top Button -->
+            <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+
+            <!-- JavaScript -->
+            <script type="module" src="script.js?v=2"></script>
+        </div>
+    </body>
+</html>

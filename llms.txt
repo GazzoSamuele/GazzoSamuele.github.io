@@ -1,0 +1,39 @@
+# Samuele Gazzo — Junior Full-Stack & Front-End Developer
+
+> Portfolio di Samuele Gazzo, sviluppatore Junior Full-Stack e Front-End specializzato in UX/UI. Lavora con HTML, CSS, JavaScript, React e WordPress, con esperienza anche su Node.js, Express, PHP e MySQL. Sito ufficiale: https://gazzosamuele.github.io/
+
+## Chi è
+Samuele Gazzo è uno sviluppatore Junior Full-Stack & Front-End con base in Italia (area di Torino). Ha iniziato dal web design per poi specializzarsi nello sviluppo front-end e full-stack, curando l'esperienza utente (UX/UI) e realizzando interfacce responsive e accessibili.
+
+## Competenze
+- Front-end: HTML, CSS, JavaScript, React, Vite, Bootstrap
+- Back-end: Node.js, Express, REST API, PHP
+- Database: MySQL
+- Strumenti: Git, Vercel
+- CMS e design: WordPress, Elementor, Figma, Illustrator
+- In apprendimento: TypeScript, TanStack, React Router, MongoDB, Redis, Laravel
+
+## Formazione
+- Web Design — Scuola Internazionale di Comics, Torino
+- Full-Stack Developer — TalentForm (corso intensivo)
+- React — Codegrind (corso intensivo)
+
+## Progetti lavorativi
+- [Aloxymera Comunicazione](https://aloxymera.it/) — sito WordPress realizzato in team, progettato in Figma
+- [Gestionale Ristorativo](https://gestionale-ristorativo.vercel.app/) — lavoro a progetto, in sviluppo: gestionale per sala, ordini, cucina e magazzino (Next.js, TypeScript, SCSS, Prisma, PostgreSQL)
+
+## Ultimi progetti
+- [MovieMatch](https://app-generatore-film.vercel.app/) — app che consiglia film e serie TV in base ai gusti dell'utente e spiega il perché di ogni consiglio (React, TypeScript, Vite, Express, MongoDB, API TMDB)
+- [Gestionale Tavoli Ristorante](https://gestionale-tavoli-ristorante.vercel.app/) — gestione di sala e prenotazioni con piantina interattiva e tavoli trascinabili (React, TypeScript, Vite, Node.js, Express, MongoDB)
+- [Gestionale Società Sportiva](https://github.com/GazzoSamuele/Esercizio-GestionaleSportivo-Database-SQL) — sito pubblico e area riservata per soci e amministratori, con database relazionale, grafici e calendario (PHP, MySQL, Bootstrap, Chart.js, FullCalendar)
+- [Voice To-Do](https://app-voice-to-do.vercel.app/) — app che trasforma la voce in appunti, con categorie, filtri, calendario e sintesi vocale (React, TypeScript, Vite, Express, MongoDB)
+
+## Siti web
+- [Portfolio Fotografico](https://progetto-portfolio-fotografico.netlify.app/) — sito in HTML, CSS e JavaScript
+- [Restyling Scuola Comics](https://progetto-landingpages.netlify.app/) — landing page con animazioni JavaScript
+- E-commerce, restyling della Venaria Reale e blog — progetti in team (WordPress, WooCommerce, JavaScript), senza versione online per motivi di copyright
+
+## Contatti
+- Sito: https://gazzosamuele.github.io/
+- LinkedIn: https://www.linkedin.com/in/samuele-gazzo-586a26338/
+- GitHub: https://github.com/GazzoSamuele

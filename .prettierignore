@@ -1,0 +1,8 @@
+_backup-pre-prettier/
+*.bak
+progetto-*/
+public/
+App_Data/
+aspnet_client/
+cgi-bin/
+mdb-database/

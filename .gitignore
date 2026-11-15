@@ -1,0 +1,28 @@
+# ========== FILE DI ARUBA ==========
+# Generati dall'hosting, contengono path del loro server (D:\...) e non
+# servono su nessun altro computer. Restano online su Aruba: escluderli da
+# git non li tocca sul server.
+
+.user.ini
+_do_not_delete
+
+# Cartelle segnaposto che il file manager di Aruba ricrea a ogni download
+# (dentro c'è solo un hidden.txt da 0 byte)
+
+App_Data/
+aspnet_client/
+cgi-bin/
+mdb-database/
+public/
+
+# ========== BACKUP LOCALI ==========
+# La cronologia la tiene già git, non serve duplicarla nel repo
+
+*.bak
+_backup-pre-prettier/
+
+# ========== FILE DI SISTEMA ==========
+
+.DS_Store
+Thumbs.db
+desktop.ini
